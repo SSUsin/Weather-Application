@@ -1,0 +1,136 @@
+.centreText {
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+th {
+  font-size: 14px;
+}
+th, tr {
+  color: #1b4a88;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+table.center {
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+.minBoxed {
+  width: 60%;
+  margin-left:auto; 
+  margin-right:auto;
+  border: 1px solid #A3EDF7 ;
+  background-color: #A3EDF7;
+}
+
+.maxBoxed {
+  width: 60%;
+  margin-left:auto; 
+  margin-right:auto;
+  border: 1px solid #F97A7A ;
+  background-color: #F97A7A;
+}
+
+div.boldFont {
+  color: #13AA13;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+div.form-container {
+  background-color: #BCDCEB;
+  border: 1px solid #BCDCEB ;
+  max-width:500px;
+  margin: auto;
+  height: 30vh;
+  padding-top: 20px;
+  padding-left: 120px;
+  box-shadow: 10px 10px 5px #839AA4;
+  border-radius: 8px;
+}
+
+.weatherCard {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 14;
+  letter-spacing: 2px;
+  padding-right: 100px;
+}
+
+.weatherCardFontStyle {
+  color: #2D65AF;
+  font-weight: bold;
+}
+
+.weatherCardFontStyle:last-child {
+  border: 0;
+}
+
+img.weatherIcon {
+  width: 55px;
+}
+
+.weatherCountry {
+  color: #0E195C;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.weatherValue {
+  color: #FFFFFF;
+  text-shadow: 1px 0 10px #A8A8A8;
+  font-weight: 200;
+}
+
+.mainTemp {
+  color: #13AA13;
+  font-weight: bold;
+}
+
+.descriptionColor, .humidityValue {
+  color: #EC8435;
+}
+
+.humidityColor {
+  color: #9ED175;
+}
+.weather__error {
+  color: #f16051;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.buttonShadow:hover {
+  box-shadow: 10px 10px 5px #839AA4;
+}
+
+.headingTitle {
+  color: #7DCBFF;
+  text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 7px 5px 2px rgba(43,162,201,0.31);
+  letter-spacing: 2px;
+  background: #FFFFFF;
+}
+
+.headingTitle2 {
+  color: #FFFFFF;
+  background: #5580B3;
+  text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 2px 2px 2px rgba(28,110,164,0);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
