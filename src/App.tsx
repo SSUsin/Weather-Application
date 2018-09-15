@@ -38,7 +38,7 @@ export default class App extends React.Component<{}, IState> {
 
   public componentDidMount() {
     const API_KEY = "66052af52fc665034f2dd22b810a8a11";
-    const API = 'http://api.openweathermap.org/data/2.5/forecast?q=' + 'Auckland,NewZealand' + '&APPID=' + API_KEY + '&units=metric';
+    const API = 'https://api.openweathermap.org/data/2.5/forecast?q=' + 'Auckland,NewZealand' + '&APPID=' + API_KEY + '&units=metric';
     fetch(API)
     .then(res => {
       if (res.ok) {
@@ -59,7 +59,7 @@ export default class App extends React.Component<{}, IState> {
     const city = e.target.elements.city.value;
     const country = e.target.elements.country.value;
     const API_KEY2 = 'c3e036910e4e0b0c1a1dde71f901849c';
-    const API = 'http://api.openweathermap.org/data/2.5/weather?q=' + city + ',' + country +'&APPID='+ API_KEY2 + '&units=metric'; 
+    const API = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + ',' + country +'&APPID='+ API_KEY2 + '&units=metric'; 
     fetch(API)
     .then(res => {
       if (res.ok) {
@@ -140,7 +140,7 @@ export default class App extends React.Component<{}, IState> {
                         <div className="maxBoxed">max temp: {hit.main.temp_max}°C </div>
                     </td>
                     <td><div className="descriptionColor"> {hit.weather[0].description} </div> <br/>
-                    <img src={"http://openweathermap.org/img/w/" + hit.weather[0].icon + ".png"}/>
+                    <img src={"https://openweathermap.org/img/w/" + hit.weather[0].icon + ".png"}/>
                     <br/>
                     <div className="humidityColor"> Humidity: {hit.main.humidity}</div>
                     </td>
