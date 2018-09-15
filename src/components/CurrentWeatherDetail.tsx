@@ -9,7 +9,7 @@ const CurrentWeatherDetail = (element:any) => (
 
 	 { 	
 		element.icon && 
-		<p> <span><img className="weatherIcon" src={"http://openweathermap.org/img/w/" + element.icon + ".png"}/></span></p> 
+		<p> <span><img className="weatherIcon" src={"https://openweathermap.org/img/w/" + element.icon + ".png"}/></span></p> 
 	 }
 
 	 { 	
